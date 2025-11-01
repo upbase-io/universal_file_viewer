@@ -20,16 +20,23 @@ dependencies:
   open_file: ^3.5.10
   video_player: ^2.9.5
   pdfrx: ^1.1.29
-  excel: ^4.0.6
+  excel: #^4.0.6
+    git:
+      url: https://github.com/upbase-io/excel
+      ref: main
   path: ^1.9.1
   path_provider: ^2.1.5
-  archive: ^3.6.1
+  archive: ^4.0.7
   xml: ^6.5.0
   markdown: ^7.3.0
   webview_flutter: ^4.13.0
   webview_flutter_web: ^0.2.3+4
   shimmer: ^3.0.0
-  docx_file_viewer: ^0.0.7
+  docx_file_viewer: #^0.0.7
+    git:
+      url: https://github.com/upbase-io/docx_viewer
+      ref: main
+
   ### in the near future use in case the docX owner do not merge I'll create the lib for the mean time I put the code in the word file preview
   ###     #git:
   #    #  url: https://github.com/oscarshaitan/docx_viewer
